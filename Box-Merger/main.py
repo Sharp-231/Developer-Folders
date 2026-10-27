@@ -1,11 +1,17 @@
 import pygame
+import random
 from player import Player
+from box import Box
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 clock = pygame.time.Clock()
 
 player = Player(100, 100, 64, 64)
+#randX = random.randint(1 + player.w/2, 800 - player.w/2)
+
+#def randomPosition():
+#    box1 = Box(randX, )
 
 running = True
 
